@@ -15,7 +15,8 @@ def do():
             else:
                 c.append(b[j])
                 j += 1
-        print(f"c={c+a[i:]+b[j:]}")
+        c = c+a[i:]+b[j:]
+        print(f"c={c}")
     else:
         print("Listy nie są posortowane.")
 
